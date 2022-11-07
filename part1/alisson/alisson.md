@@ -7,5 +7,9 @@
   - Giving customers a better option to buy a ticket without a long queue waiting
   - Customer can buy tickets for oncoming activities
 - Attract customer from long distances, tourists etc.
+- Marketing: Having a subscripton system
+
 
 ## Findings
+
+- [Asterisk Parc](asterisk_park/asterisk_park.md)

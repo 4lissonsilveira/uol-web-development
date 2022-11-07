@@ -30,11 +30,10 @@ Produce a set of wireframes for the site, showing the concepts for both a wide s
 ### Suggested By Alisson
 - 1 Asterix Park, France
 - 2 Europa-Park, Germany
+- 3 Alton Towers, UK
 - [Source - Traveland Leisure](https://www.travelandleisure.com/attractions/amusement-parks/best-amusement-parks-in-the-world)
-- [Findings/Research](alisson.md)
+- [Findings/Research](alisson/alisson.md)
 
-
----
 
 # Check List
 - [ ] Discussion about reasons for a theme park web site
