@@ -23,17 +23,33 @@ Produce a set of wireframes for the site, showing the concepts for both a wide s
 ---
 
 # Tasks
-## 1 Reasons for a theme park web site
+## 1 - Reasons for a theme park web site
 - [Discussion Outcome](group.md#discussion)
 
-## 2 Theme Parks Chosen
+## 2 - Theme Park Websites To Research
 ### Suggested By Alisson
-- 1 Asterix Park, France
-- 2 Europa-Park, Germany
-- 3 Alton Towers, UK
-- [Source - Traveland Leisure](https://www.travelandleisure.com/attractions/amusement-parks/best-amusement-parks-in-the-world)
+- Website 1 - Asterix Park, France
+- Website 2 - Europa-Park, Germany
 - [Findings/Research](alisson/alisson.md)
 
+### Suggest by [student 2]
+- 1 
+- 2 ...
+- [Findings/Research](student2/student2.md)
+
+### Suggest by [student 3]
+- 1
+- 2 ...
+- [Findings/Research](student3/student3.md)
+
+## 3 - Website Content
+- [discuss and create the page for the outcome]()
+
+## 4 - Structure of the Website
+- [discuss and create the page for the outcome]()
+
+## 5 - Wireframes
+- [discuss and create the page for the outcome]()
 
 # Check List
 - [ ] Discussion about reasons for a theme park web site
