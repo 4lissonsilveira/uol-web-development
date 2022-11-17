@@ -66,9 +66,16 @@ so we can have a menu with some sort of quick options as well.
 ### Suggestion
 - Home:
 - ![img.png](img/img.png)
-- First Section - Attractions:
+- First Section - Attractions
 - ![img_1.png](img/img_1.png)
 - Second Section - Tickets
 - ![img_2.png](img/img_2.png)
-
-TODO: add more wireframes for mobile
+- Mobile Home:
+- ![img_1.png](img/img_4.png)
+- Mobile First Section - Attractions
+- ![img.png](img/img_3.png)
+- Mobile Second Section - Menu
+- ![img_3.png](img/img_3.png)
+- Mobile Third Section - Tickets
+- ![img_4.png](img/img_6.png)
+- [Demo Link](https://balsamiq.cloud/su76wx6/p5gmmcb)
