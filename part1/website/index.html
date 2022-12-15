@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- Home page containing header, main, and footer created by Alisson -->
+<html>
+    <head>
+        <meta name="refresh" content="120">
+        <meta charset="UTF-8">
+        <meta name="author" content="University of London students">
+        <meta name="description" content="UOL Theme Park">
+        <meta name="keywords" content="Theme Park, roller coaster, Fun, Family Activities">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UOL Park Theme</title>
+        <link rel="stylesheet" href="stylesheet/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <img src="img/uol-theme-park-logo.png" alt="logo" height="150" width="200">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tickets.html">Tickets</a></li>
+                    <li><a href="map.html">Park Map</a></li>
+                    <li><a href="#other-attractions">Attractions</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!-- Here we aim the main into sections, so the user can keep scrolling to see attractions and more-->
+            <h1>Welcome to UOL theme park</h1>
+            <!-- This is the first section, the main attraction section -->
+            <div id="main-attraction">
+                <h2>Special Winter</h2>
+                <p>Come to our Special Winter and enjoy our winter attractions, with lots of fun</p>
+                <img src="img/ferrywheel.jpg" alt="Ferrywheel as the picture of the main attraction">
+            </div>
+            <!-- Second section. Ticket form should redirect to tickets.html -->
+            <div id="tickets-session">
+                <h2>Buy tickets</h2>
+                <p>Find the best date for you</p>
+                <form>
+                    <label for="date_from">From</label>
+                    <input type="date" name="date_from" id="date_from">
+                    <label for="date_to">To</label>
+                    <input type="date" name="date_to" id="date_to"><br>
+                    <label for="adults">Adults</label><br>
+                    <input type="number" name="adults" id="adults"><br>
+                    <label for="seniors">Seniors</label><br>
+                    <input type="number" name="seniors" id="seniors"><br>
+                    <label for="kids">Kids</label><br>
+                    <input type="number" name="kids" id="kids"><br>
+                    <button type="button">Search</button>
+                </form>
+            </div>
+            <!-- Third and last section, all attractions -->
+            <div id="other-attractions">
+                <h2>Our Attractions</h2>
+                <div id="attraction-one">
+                    <h3>Halloween Night</h3>
+                    <p>Come and experience the magic of our Halloween Night</p>
+                    <img src="img/halloween_freeimages.jpg" alt="halloween with a big moon">
+                </div>
+                <div id="attraction-two">
+                    <h3>Beauty and the Beast</h3>
+                    <p>Classics of Theater</p>
+                    <img src="img/mask_freeimages.jpg" alt="Man holding a mask on a theater backstage">
+                </div>
+                <div id="attraction-three">
+                    <h3>For Families</h3>
+                    <p>Find adventures for the whole family</p>
+                    <img src="img/family_unsplash.jpg" alt="a family walking together">
+                </div>
+                <div id="attraction-four">
+                    <h3>New attractions</h3>
+                    <p>Check our most recent attractions</p>
+                    <img src="img/new_unsplash.jpg" alt="word new written on a wall">
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div id="address">
+                <address>Nice Avenue, 1, Nice Division, Nice Country.</address>
+            </div>
+            <div id="contact">
+                Telephone Number: +999 95 5343-3434
+                Email: contact@uolparktheme.com
+            </div>
+            <div id="social-media">
+                <a href="">
+                    <img src="img/twitter.png" alt="twitter logo">
+                </a>
+                <a href="#">
+                    <img src="img/instagram.png" alt="instagram logo">
+                </a>
+                <a href="#">
+                    <img src="img/facebook.png" alt="facebook logo">
+                </a>
+                <a href="#">
+                    <img src="img/youtube-2.png" alt="youtube logo">
+                </a>
+                <a href="#">
+                    <img src="img/tiktok.png" alt="tiktok logo">
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>

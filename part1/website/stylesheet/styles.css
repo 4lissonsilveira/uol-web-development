@@ -1,0 +1,146 @@
+/*Custom Fonts---------------------------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&display=swap');
+
+/* <header> --------------------------------------------------------------------------------------------- */
+
+#logo {
+    /* contains <img> */
+}
+
+header nav ul li{
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 18px;
+    list-style: none;
+    color: #113f67;
+}
+
+h1 {
+    font-family: 'Georgia', Courier New, serif;
+    color: #113f67;
+}
+
+h2 {
+    font-family: 'Georgia', Courier New, serif;
+    color: #113f67;
+}
+
+h3 {
+    font-family: 'Georgia', Courier New, serif;
+    color: #113f67;
+}
+/* <footer> --------------------------------------------------------------------------------------------- */
+
+footer {
+    font-family: 'Cabin Condensed', sans-serif;
+    color: #113f67;
+}
+
+#social-media a img {
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+}
+
+#social-media a {
+    text-decoration: none;
+}
+/*index.html <main> ----------------------------------------------------------------------------------------*/
+main form {
+    font-family: 'Cabin Condensed', sans-serif;
+    color: #113f67;
+}
+
+/*map.html <main> ----------------------------------------------------------------------------------------*/
+
+#mapDisplay {
+    /* contains <img> and <map> */
+}
+
+#mapSearchList {
+    /* contains id="mapSearchForm" and multiple class="mapSearchItem */
+}
+
+#mapSearchForm {
+    /* contains id="mapSearchInput" and id="mapSearchFilter" */
+}
+
+#mapSearchInput {
+    /* contains <input> and <button> */
+}
+
+#mapSearchInput input{ 
+    border: 2px solid #113f67;
+}
+
+#mapSearchInput button{
+    font-family: 'Cabin Condensed', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff;
+    background-color:  #113f67;
+    border: 2px solid #ffffff;
+}
+
+#mapSearchFilter {
+    /* contains multiple <button> */
+}
+
+#mapSearchFilter button {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #113f67;
+    background-color:  #ffffff;
+    border: 1px solid #113f67;
+}
+
+.mapSearchItem {
+    /* contains <img>, <h2>, <p>, <time>, <a> */
+    border-top: 1px solid #113f67;
+}
+
+.mapSearchItem img{
+}
+
+.mapSearchItem h2{
+    font-family: 'Cabin Condensed', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #113f67;
+}
+
+.mapSearchItem p{
+    font-family: 'Cabin Condensed', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: #113f67;
+}
+
+.mapSearchItem time{
+    font-family: 'Cabin Condensed', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #113f67;
+}
+
+.mapSearchItem a{
+    font-family: 'Cabin Condensed', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff;
+    background-color:  #113f67;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+}
