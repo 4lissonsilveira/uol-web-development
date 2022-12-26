@@ -17,7 +17,9 @@
     <body>
         <header>
             <div id="logo">
-                <img src="img/uol-theme-park-logo.png" alt="logo" height="150" width="200">
+                <a href="index.html">
+                    <img src="img/uol-theme-park-logo.png" alt="logo" height="150" width="200">
+                </a>
             </div>
             <nav>
                 <ul>
@@ -30,11 +32,12 @@
         </header>
         <main>
             <!-- Here we aim the main into sections, so the user can keep scrolling to see attractions and more-->
-            <h1>Welcome to UOL theme park</h1>
             <!-- This is the first section, the main attraction section -->
             <div id="main-attraction">
                 <h2>Special Winter</h2>
-                <p>Come to our Special Winter and enjoy our winter attractions, with lots of fun</p>
+                <p>
+                    Come to our Special Winter and enjoy our winter attractions, with lots of fun!
+                </p>
                 <img src="img/ferrywheel.jpg" alt="Ferrywheel as the picture of the main attraction">
             </div>
             <!-- Second section. Ticket form should redirect to tickets.html -->
@@ -42,17 +45,25 @@
                 <h2>Buy tickets</h2>
                 <p>Find the best date for you</p>
                 <form>
-                    <label for="date_from">From</label>
-                    <input type="date" name="date_from" id="date_from">
-                    <label for="date_to">To</label>
-                    <input type="date" name="date_to" id="date_to"><br>
-                    <label for="adults">Adults</label><br>
-                    <input type="number" name="adults" id="adults"><br>
-                    <label for="seniors">Seniors</label><br>
-                    <input type="number" name="seniors" id="seniors"><br>
-                    <label for="kids">Kids</label><br>
-                    <input type="number" name="kids" id="kids"><br>
-                    <button type="button">Search</button>
+                    <div class="row-field">
+                        <label for="date_from">From</label>
+                        <input type="date" name="date_from" id="date_from">
+                        <label for="date_to">To</label>
+                        <input type="date" name="date_to" id="date_to"><br>
+                    </div>
+                    <div class="row-field">
+                        <label for="adults">Adults</label><br>
+                        <input type="number" name="adults" id="adults"><br></div>
+                    <div class="row-field">
+                        <label for="seniors">Seniors</label><br>
+                        <input type="number" name="seniors" id="seniors"><br></div>
+                    <div class="row-field">
+                        <label for="kids">Kids</label><br>
+                        <input type="number" name="kids" id="kids"><br>
+                    </div>
+                    <div class="row-field">
+                        <button type="button" onClick="location.href='tickets.html'">Search</button>
+                    </div>
                 </form>
             </div>
             <!-- Third and last section, all attractions -->
@@ -61,12 +72,16 @@
                 <div id="attraction-one">
                     <h3>Halloween Night</h3>
                     <p>Come and experience the magic of our Halloween Night</p>
-                    <img src="img/halloween_freeimages.jpg" alt="halloween with a big moon">
+                    <a href="tickets.html">
+                        <img class="remove-underline" src="img/halloween_freeimages.jpg" alt="halloween with a big moon">
+                    </a>
                 </div>
                 <div id="attraction-two">
                     <h3>Beauty and the Beast</h3>
                     <p>Classics of Theater</p>
-                    <img src="img/mask_freeimages.jpg" alt="Man holding a mask on a theater backstage">
+                    <a href="tickets.html">
+                        <img src="img/mask_freeimages.jpg" alt="Man holding a mask on a theater backstage">
+                    </a>
                 </div>
                 <div id="attraction-three">
                     <h3>For Families</h3>
@@ -81,13 +96,6 @@
             </div>
         </main>
         <footer>
-            <div id="address">
-                <address>Nice Avenue, 1, Nice Division, Nice Country.</address>
-            </div>
-            <div id="contact">
-                Telephone Number: +999 95 5343-3434
-                Email: contact@uolparktheme.com
-            </div>
             <div id="social-media">
                 <a href="">
                     <img src="img/twitter.png" alt="twitter logo">
@@ -104,6 +112,13 @@
                 <a href="#">
                     <img src="img/tiktok.png" alt="tiktok logo">
                 </a>
+            </div>
+            <div id="address">
+                <address>Address: Nice Avenue, 1, Nice Division, Nice Country.</address>
+            </div>
+            <div id="contact">
+                Telephone Number: +999 95 5343-3434
+                Email: contact@uolparktheme.com
             </div>
         </footer>
     </body>
