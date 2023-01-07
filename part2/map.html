@@ -1,0 +1,179 @@
+<html>
+    <head>
+        <meta name="refresh" content="120">
+        <meta charset="UTF-8">
+        <meta name="author" content="University of London students">
+        <meta name="description" content="UOL Theme Park">
+        <meta name="keywords" content="Theme Park, roller coaster, Fun, Family Activities">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UOL Park Theme</title>
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <img src="img/uol-theme-park-logo.png" alt="logo" height="150px" width="200">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tickets.html">Tickets</a></li>
+                    <li><a href="map.html">Park Map</a></li>
+                    <li><a href="index.html#other-attractions">Attractions</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div>
+                <img src="img/map.jpg" alt="Park Map" width="500" height="500" usemap="#parkmap">
+                <!-- The following map and area tags create clickable areas on the above image.
+                    This allows navigation between marked locations on the map and their connected class=panelCard.
+                    Each class=panelCard will contain details about a marked location. -->
+                <map name="parkmap">
+                    <area id="mapAttr1" shape="rect" coords="10,191,66,304" alt="Location of Attraction 1" href="#attraction1">
+                    <area id="mapAttr2" shape="rect" coords="243,8,328,95" alt="Location of Attraction 2" href="#attraction2">
+                    <area id="mapAttr3" shape="rect" coords="414,9,486,100" alt="Location of Attraction 3" href="#attraction3">
+                    <area id="mapAttr4" shape="rect" coords="170,304,225,441" alt="Location of Attraction 4" href="#attraction4">
+
+                    <area id="mapRestu1" shape="rect" coords="176,124,278,200" alt="Location of Restaurant 1" href="#restuarant1">
+                    <area id="mapRestu2" shape="rect" coords="255,297,350,378" alt="Location of Restaurant 2" href="#restuarant2">
+
+                    <area id="mapATM1" shape="rect" coords="302,165,349,268" alt="Location of ATM 1" href="#atm1">
+                    <area id="mapATM2" shape="rect" coords="381,297,422,363" alt="Location of ATM 2" href="#atm2">
+
+                    <area id="mapEmerg1" shape="rect" coords="90,10,148,100" alt="Location of Emergency Service 1" href="#emergency1">
+                    <area id="mapEmerg2" shape="rect" coords="77,393,147,426" alt="Location of Emergency Service 2 (Pool Area)" href="#emergency2">
+
+                </map>
+            </div>
+
+            <div id="sidePanel">
+                <div class="panelCard">
+                    <div id="searchInput">
+                        <!-- This input and button should allow the user to search for places on the list
+                            by entering the names of those places. -->
+                        <input type="text" placeholder="Search..">
+                        <button type="button">Search</button>
+                    </div>
+
+                    <div id="filterInput">
+                        <!-- Each filter button is meant to allow only a single class of items to be displayed on the list.
+                        The classes include: parkAttractions, restaurants, etc. -->
+                        <button type="button">Attractions</button>
+                        <button type="button">Restaurants</button>
+                        <button type="button">ATMs</button>
+                        <button type="button">Emergency</button>
+
+                    </div>
+                </div>
+
+                <div id="attraction1" class="panelCard parkAttractions">
+                    <img src="img/attraction1.png" alt="Roller coaster moving along a track." width="150" height="150">
+                    <h2>Roller Coaster</h2>
+                    <p>Enjoy the thrill of speeding along slopes and loops.</p>
+                    <time>10:00</time> - <time>21:00</time><br>
+                    <a href="#mapAttr1">Find on Map</a>
+                </div>
+
+                <div id="attraction2" class="panelCard parkAttractions">
+                    <img src="img/attraction2.png" alt="A multi-colored ferris wheel." width="150" height="150">
+                    <h2>Ferris Wheel</h2>
+                    <p>With carts big enough to seat groups of eight, take some time to get a view of the park and surrounding city.</p>
+                    <time>10:00</time> - <time>21:00</time><br>
+                    <a href="#mapAttr2">Find on Map</a>
+                </div>
+
+                <div id="attraction3" class="panelCard parkAttractions">
+                    <img src="img/attraction3.png" alt="Four diferently-shaped slides leading into a swimming pool." width="150" height="150">
+                    <h2>Water Slides</h2>
+                    <p>Our pool area is a place for trying the slides, swimming laps, or lounging in the sun.</p>
+                    <time>10:00</time> - <time>21:00</time><br>
+                    <a href="#mapAttr3">Find on Map</a>
+                </div>
+
+                <div id="attraction4" class="panelCard parkAttractions">
+                    <img src="img/attraction4.png" alt="Two go-kart cars driven on a go-kart track." width="150" height="150">
+                    <h2>Go Karts</h2>
+                    <p>Test you speed or cruise along and enjoy the scenery at our go-kart track.</p>
+                    <time>10:00</time> - <time>21:00</time><br>
+                    <a href="#mapAttr4">Find on Map</a>
+                </div>
+
+                <div id="restuarant1" class="panelCard restaurants">
+                    <img src="img/restaurant1.png" alt="A wooden dining table surrounded by glass windows and green plants." width="150" height="150">
+                    <h2>Greenhouse Restuarant</h2>
+                    <p>This restaurant allows for both an indoor and outdoor dining experience that brings you close to nature.</p>
+                    <time>10:00</time> - <time>20:30</time><br>
+                    <a href="#mapRestu1">Find on Map</a>
+                </div>
+
+                <div id="restuarant2" class="panelCard restaurants">
+                    <img src="img/restaurant2.png" alt="A cafe table next to a beach umbrella. " width="150" height="150">
+                    <h2>Pool Cafe</h2>
+                    <p>This swimming pool themed cafe is the perfect setting for light snacks, drinks, and photo-taking.</p>
+                    <time>10:00</time> - <time>20:30</time><br>
+                    <a href="#mapRestu2">Find on Map</a>
+                </div>
+
+                <div id="atm1" class="panelCard ATMs">
+                    <img src="img/atm1.png" alt="An ATM machine with the name of a bank" width="150" height="150">
+                    <h2>Grey Bank ATM</h2>
+                    <p>Grey Bank ATM offers a standard range of ATM services.</p>
+                    <time>10:00</time> - <time>21:00</time><br>
+                    <a href="#mapATM1">Find on Map</a>
+                </div>
+
+                <div id="atm2" class="panelCard ATMs">
+                    <img src="img/atm2.png" alt="An ATM machine with the name of a bank." width="150" height="150">
+                    <h2>Blue Bank ATM</h2>
+                    <p>Blue Bank ATM offers a standard range of ATM services.</p>
+                    <time>10:00</time> - <time>21:00</time><br>
+                    <a href="#mapATM2">Find on Map</a>
+                </div>
+
+                <div id="emergency1" class="panelCard emergencyServices">
+                    <img src="img/emergency1.png" alt="A red cross against a plain background." width="150" height="150">
+                    <h2>Emergency Service</h2>
+                    <p>This emergency facility is available to all theme park guests during their visit to the theme park.</p>
+                    <time>10:00</time> - <time>21:00</time><br>
+                    <a href="#mapEmerg1">Find on Map</a>
+                </div>
+
+                <div id="emergency2" class="panelCard emergencyServices">
+                    <img src="img/emergency2.png" alt="A red cross over a lifeguard tower in the background." width="150" height="150">
+                    <h2>Pool Area Emergency Service</h2>
+                    <p>This emergency room specializes in water-related emergencies.</p>
+                    <time>10:00</time> - <time>21:00</time><br>
+                    <a href="#mapEmerg2">Find on Map</a>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div id="address">
+                <address>Nice Avenue, 1, Nice Division, Nice Country.</address>
+            </div>
+            <div id="contact">
+                Telephone Number: +999 95 5343-3434
+                Email: contact@uolparktheme.com
+            </div>
+            <div id="social-media">
+                <a href="">
+                    <img src="img/twitter.png" alt="twitter logo" width="50px" height="50px">
+                </a>
+                <a href="#">
+                    <img src="img/instagram.png" alt="instagram logo" width="50px" height="50px">
+                </a>
+                <a href="#">
+                    <img src="img/facebook.png" alt="facebook logo" width="50px" height="50px">
+                </a>
+                <a href="#">
+                    <img src="img/youtube-2.png" alt="youtube logo" width="50px" height="50px">
+                </a>
+                <a href="#">
+                    <img src="img/tiktok.png" alt="tiktok logo" width="50px" height="50px">
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>

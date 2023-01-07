@@ -1,0 +1,306 @@
+/*Custom Fonts---------------------------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&display=swap');
+
+
+/* <body>*/
+/* created by Alisson Silveira */
+/* set margin to 0 so the footer can fill up the whole screen horizontally*/
+body {
+    margin: 0;
+}
+
+/* <header> --------------------------------------------------------------------------------------------- */
+/* create by Alisson Silveira */
+header{
+    height: 150px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #113f67;
+    z-index: 10;
+}
+#logo {
+    float: left;
+}
+
+header nav ul {
+    border-style: solid;
+    border-color: #113f67;
+    border-width: 2px;
+    width: 350px;
+
+}
+header nav{
+    float: right;
+    margin: 40px;
+}
+
+header nav ul li{
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 18px;
+    list-style: none;
+    color: #113f67;
+    display: inline-block;
+    padding: 10px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Georgia, 'Courier New', serif;
+    color: #113f67;
+}
+
+h2 {
+    font-family: Georgia, 'Courier New', serif;
+    color: #113f67;
+}
+
+h3 {
+    font-family: Georgia, 'Courier New', serif;
+    color: #113f67;
+}
+
+/* <footer> --------------------------------------------------------------------------------------------- */
+/* create by Alisson Silveira */
+
+footer {
+    width: 100%;
+    background-color: #113f67;
+    height: 80px;
+    font-family: 'Cabin Condensed', sans-serif;
+    color: white;
+}
+
+#social-media {
+    width: 25%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 70px;
+}
+
+#address{
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    horiz-align: center;
+}
+
+#contact{
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#social-media a {
+    text-decoration: none;
+}
+
+#social-media a img {
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+/*index.html <main> ----------------------------------------------------------------------------------------*/
+/* create by Alisson Silveira */
+main{
+    margin-top:150px;
+}
+
+#main-attraction img{
+    width: 100%;
+    opacity: 0.7;
+}
+
+#main-attraction h2{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-size: 80px;
+    z-index: 1;
+}
+
+#main-attraction p{
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    z-index: 1;
+    font-size: 25px;
+    color: #113f67;
+}
+
+#tickets-session {
+    font-family: 'Cabin Condensed', sans-serif;
+    height: 700px;
+    background-color: #113f67;
+    color: white;
+    margin-top: -5px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#tickets-session h2{
+    color: white;
+    font-size: 50px;
+}
+
+#tickets-session p{
+    font-size: 25px;
+}
+
+#tickets-session label{
+    font-size: 20px;
+    padding: 10px;
+}
+
+#tickets-session input{
+    width: 120px;
+    height: 25px;
+    font-size: 20px;
+}
+#tickets-session form button{
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.row-field{
+    padding:5px;
+    width: 100%;
+}
+
+#other-attractions{
+    width: 100%;
+    height: 700px;
+}
+
+#other-attractions h2{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 80px;
+}
+
+#other-attractions div{
+    display: inline-block;
+    width: 20%;
+    padding-left: 4%;
+    color: #113f67;
+}
+
+#other-attractions div img{
+    display: inline-block;
+    width: 100%;
+    border-style: solid;
+    border-color: #000;
+}
+
+.remove-underline{
+    border: none;
+}
+
+/*map.html <main> ----------------------------------------------------------------------------------------*/
+/* create by Netania Smith */
+#mapDisplay {
+    /* contains <img> and <map> */
+}
+
+#mapSearchList {
+    /* contains id="mapSearchForm" and multiple class="mapSearchItem */
+}
+
+#mapSearchForm {
+    /* contains id="mapSearchInput" and id="mapSearchFilter" */
+}
+
+#mapSearchInput {
+    /* contains <input> and <button> */
+}
+
+#mapSearchInput input{ 
+    border: 2px solid #113f67;
+}
+
+#mapSearchInput button{
+    font-family: 'Cabin Condensed', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff;
+    background-color:  #113f67;
+    border: 2px solid #ffffff;
+}
+
+#mapSearchFilter {
+    /* contains multiple <button> */
+}
+
+#mapSearchFilter button {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #113f67;
+    background-color:  #ffffff;
+    border: 1px solid #113f67;
+}
+
+.mapSearchItem {
+    /* contains <img>, <h2>, <p>, <time>, <a> */
+    border-top: 1px solid #113f67;
+}
+
+.mapSearchItem img{
+}
+
+.mapSearchItem h2{
+    font-family: 'Cabin Condensed', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #113f67;
+}
+
+.mapSearchItem p{
+    font-family: 'Cabin Condensed', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: #113f67;
+}
+
+.mapSearchItem time{
+    font-family: 'Cabin Condensed', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #113f67;
+}
+
+.mapSearchItem a{
+    font-family: 'Cabin Condensed', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff;
+    background-color:  #113f67;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+}
