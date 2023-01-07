@@ -4,3 +4,13 @@
     - Work through the wireframes and decide on the correct CSS to build those pages, and add classes and identities to the pages. Mark up your wireframes accordingly. Upload a .zip file of these new marked-up versions of the wireframes into the Workspace: static web pages in week 10.
 - **Set up and link stylesheet**
     - Code the CSS stylesheet with these appearance styling instructions and link them to the correct HTML elements using the class and id mechanism.
+
+### Grading Criteria
+Marks will be awarded for the following:
+
+- Does the URL lead to the correct website? 
+- Applying Appearance Styling: Stylesheets
+- Applying Appearance Styling - Styling Text
+- Applying Appearance Styling - Font Families
+- Applying Appearance Styling - HTML Object Colouring
+- Applying Appearance Styling - Colour Definition

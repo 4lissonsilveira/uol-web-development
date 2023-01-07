@@ -4,3 +4,14 @@
     - Work through the wireframes and decide on the correct CSS to build those pages, and check the class and identity properties of the elements in the pages. Mark up your wireframes accordingly. Upload these new marked-up versions of the wireframes a .zip file into the Workspace: static web pages in week 10.
 - **Set up and link stylesheet**
     - Code the CSS stylesheet with the layout styling instructions and link them to the correct HTML elements using the class and id mechanism.
+
+
+### Grading Criteria
+Marks will be awarded for the following:
+
+- Does the link lead to the correct website? 
+- Box Modelling Styling
+- X, Y, Z of Styling
+- Grids & Columns
+- Media Styling
+- Animation  
